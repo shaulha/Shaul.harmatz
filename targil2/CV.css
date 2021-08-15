@@ -1,0 +1,29 @@
+:root {
+    --titele_color: rgb(226, 52, 90);
+    --titel_back:rgba(150, 197, 201, 0.377);
+    --text_body: rgb(39, 70, 33);
+}
+
+body{
+    background-image: url(myChildren.jpg);
+    max-width: 100%; 
+    background-repeat: no-repeat;
+    color: var(--text_body)
+    
+}
+
+
+
+h3 {
+    color: black; 
+    background-color: var(--titel_back);
+ 
+}
+
+#myName{
+
+    text-align: center;
+    color: rgb(139, 0, 23);
+    background-color: var(--titel_back);
+    border: 4px solid rgb(151, 86, 212);
+}
