@@ -12,8 +12,16 @@ body{
     
 }
 
+h2{
+    border: 3px solid black;
+    text-align: center;
+}
 
-
+#cv{
+    text-align: center;
+    text-shadow: black;
+    text-size-adjust: 30px;
+}
 h3 {
     color: black; 
     background-color: var(--titel_back);
