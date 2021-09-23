@@ -14,7 +14,7 @@ app.get( '/',(req ,res) =>{
         res.write (data);
         return res.end();
     });
-    fs.appendFile('.gitignore.text',myData, function (err){
+    fs.appendFile('.gitignore.gitignore',myData, function (err){
         if (err) throw err;
         console.log('Saved!');
         });
